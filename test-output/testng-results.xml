@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21413" started-at="2020-01-13T19:28:44Z" finished-at="2020-01-13T19:29:05Z">
+  <suite name="Default suite" duration-ms="22023" started-at="2020-01-24T20:24:54Z" finished-at="2020-01-24T20:25:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21413" started-at="2020-01-13T19:28:44Z" finished-at="2020-01-13T19:29:05Z">
+    <test name="Default test" duration-ms="22023" started-at="2020-01-24T20:24:54Z" finished-at="2020-01-24T20:25:16Z">
       <class name="com.qa.hubspot.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="setup" is-config="true" duration-ms="10466" started-at="2020-01-13T19:28:44Z" finished-at="2020-01-13T19:28:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="setup" is-config="true" duration-ms="10804" started-at="2020-01-24T20:24:54Z" finished-at="2020-01-24T20:25:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="verifyLoginPageTitleTest" duration-ms="13" started-at="2020-01-13T19:28:54Z" finished-at="2020-01-13T19:28:54Z">
+        <test-method status="FAIL" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="verifyLoginPageTitleTest" duration-ms="27" started-at="2020-01-24T20:25:05Z" finished-at="2020-01-24T20:25:05Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://app.hubspot.com/login] but found [Checking browser]]]>
@@ -56,11 +56,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="tearDown" is-config="true" duration-ms="641" started-at="2020-01-13T19:28:54Z" finished-at="2020-01-13T19:28:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="tearDown" is-config="true" duration-ms="641" started-at="2020-01-24T20:25:05Z" finished-at="2020-01-24T20:25:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="login" duration-ms="0" started-at="2020-01-13T19:28:55Z" finished-at="2020-01-13T19:28:55Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="login" duration-ms="0" started-at="2020-01-24T20:25:06Z" finished-at="2020-01-24T20:25:06Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -101,32 +101,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="setup" is-config="true" duration-ms="9563" started-at="2020-01-13T19:28:55Z" finished-at="2020-01-13T19:29:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="setup" is-config="true" duration-ms="9838" started-at="2020-01-24T20:25:06Z" finished-at="2020-01-24T20:25:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifysignUpLink()[pri:2, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="verifysignUpLink" duration-ms="31" started-at="2020-01-13T19:29:04Z" finished-at="2020-01-13T19:29:05Z">
+        <test-method status="FAIL" signature="verifysignUpLink()[pri:2, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="verifysignUpLink" duration-ms="35" started-at="2020-01-24T20:25:15Z" finished-at="2020-01-24T20:25:16Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign up"}
-  (Session info: chrome=79.0.3945.88)
+  (Session info: chrome=79.0.3945.130)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AMAN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Aman\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 21504b65cd409c6a872345183c7487d0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Aman\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bddaebc30eddf9d49676fb0c9e2386e2
 *** Element info: {Using=link text, value=Sign up}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign up"}
-  (Session info: chrome=79.0.3945.88)
+  (Session info: chrome=79.0.3945.130)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AMAN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Aman\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 21504b65cd409c6a872345183c7487d0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Aman\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bddaebc30eddf9d49676fb0c9e2386e2
 *** Element info: {Using=link text, value=Sign up}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -178,7 +178,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifysignUpLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="tearDown" is-config="true" duration-ms="631" started-at="2020-01-13T19:29:05Z" finished-at="2020-01-13T19:29:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@475530b9]" name="tearDown" is-config="true" duration-ms="620" started-at="2020-01-24T20:25:16Z" finished-at="2020-01-24T20:25:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
